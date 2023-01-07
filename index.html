@@ -10,16 +10,25 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://radiokampus.site/assets/style/main.css">
 	<style>
-		.video-yt {
+		/* .video-yt {
 			width: 560px;
 			height: 315px;
-		}
-		@include media-breakpoint-up(sm) {
+		} */
+
+		@media only screen and (min-width: 992px) {
 			.video-yt {
-				width: 100%;
-				height: 125px;
+				width: 560px;
+				height: 315px;
 			}
 		}
+
+		/* @include media-breakpoint-up(sm) {
+			.video-yt {
+				max-width: 100px;
+				height: 125px;
+			
+			}
+		} */
 	</style>
 </head>
 <body>
@@ -66,7 +75,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-11 col-12">
 						<div class="row">
-							<div class="col-lg-6 col-12 copywriting " data-aos="fade-right" data-aos-delay="100">
+							<div class="col-lg-6 col-12 copywritingorder-sm-2 " data-aos="fade-right" data-aos-delay="100">
 								<!-- <p class="story">
 									LEARN NEW SKILLS
 								</p> -->
@@ -83,7 +92,7 @@
 									</a>
 								</p>
 							</div>
-							<div class="col-lg-6 col-12 text-center align-self-end" data-aos="zoom-in" data-aos-delay="100">
+							<div class="col-lg-6 col-12 text-center align-self-end order-sm-1" data-aos="zoom-in" data-aos-delay="100">
 								<!-- <a href="#">
 									<img src="https://radiokampus.site/assets/images/banner.jpg" class="img-fluid" alt="">
 								</a> -->
@@ -98,7 +107,7 @@
 	<!-- End Section Banner -->
 
 	<!-- Section Events -->
-		<section class="events"">
+		<section class="events">
 			<div class="container">
 				<div class="row text-center pb-70">
 					<div class="col-lg-12 col-12 header-wrap">
